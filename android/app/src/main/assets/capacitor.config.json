@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "marketplace",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
