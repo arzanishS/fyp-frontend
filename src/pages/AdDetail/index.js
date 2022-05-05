@@ -38,7 +38,7 @@ const AdDetail = () => {
       }
       if (adData.item_condition && adData.brand_name !== '' && adData.shipping !== undefined && adData.gen_cat !== '' && adData.sub1_cat !== '' && adData.sub2_cat !== '') {
         setLoading(true)
-        const res = await axios.post('https://api-ywnvzro66q-ew.a.run.app/price', adData)
+        
         if (res) {
           setLoading(false)
           console.log(res.data?.price.toFixed(2))
